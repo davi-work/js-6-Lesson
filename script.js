@@ -1,3 +1,52 @@
+// let totalPrice = 0;
+// let order = "";
+// const cart = receipt();
+
+// for (const key in cart) {
+//     const item = cart[key];
+//     totalPrice += item.price;
+//     order += `${key} ${item.info}, `;
+// }
+
+// const deliveryCost = 9000;
+// totalPrice += deliveryCost;
+
+// console.log(`Вы заказали ${order}`);
+// console.log(`Общая стоимость: ${totalPrice} с доставкой (${deliveryCost})`);
+
+// const cart = receipt();
+// console.log(cart);
+
+// let i = 9000;
+// let menu = 'Вы заказали ';
+// for(const key in cart) {
+//     menu = menu + `${key}`;
+//     for(const newKey in cart[key]) {
+//         menu = newKey == 'info' ? menu + ` ${cart[key][newKey]}, ` : menu + '';
+//         i = newKey == 'price' ? i + cart[key][newKey] : i;
+//     }
+// }
+// console.log(`${menu} | Общая стоимость ${i} сумм с доставкой (9000)`);
+
+
+// const cart = receipt();
+// console.log(cart);
+
+// let i = 9000;
+// let menu = 'Вы заказали ';
+// for(const key in cart) {
+//     menu = menu + `${key}`;
+//     for(const newKey in cart[key]) {
+//         menu = newKey == 'info' ? menu + ` ${cart[key][newKey]}, ` : menu + '';
+//         i = newKey == 'price' ? i + cart[key][newKey] : i;
+//     }
+// }
+// console.log(`${menu} | Общая стоимость ${i} сумм с доставкой (9000)`);
+
+
+
+
+
 // МАССИВЫ
 // Что такое массивы ?
 // - Пример: страна
